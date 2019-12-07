@@ -4,7 +4,7 @@
   <groupId>com.java.project</groupId>
   <artifactId>pilot</artifactId>
   <packaging>war</packaging>
-  <version>1.1.1</version>
+  <version>0.0.1</version>
   <name>pilot Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -15,4 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>pilot</finalName>
+  </build>
 </project>
